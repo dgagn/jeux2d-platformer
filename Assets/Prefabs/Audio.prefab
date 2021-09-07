@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1577000562807750804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1577000562807750806}
+  - component: {fileID: 1577000562807750805}
+  m_Layer: 0
+  m_Name: Audio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1577000562807750806
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577000562807750804}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -3.7743282, y: -0.23308001, z: -18.760277}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1577000562807750805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1577000562807750804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df593e28bfd1487d81e772711a509ae9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  audios:
+  - nom: JoueurSaut
+    clip: {fileID: 8300000, guid: 0940d4cc81213864bad4c9c5b680f519, type: 3}
+    volume: 0.371
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: JoueurPas
+    clip: {fileID: 8300000, guid: 111446a2c562d1c43a73cd4b43ba76e2, type: 3}
+    volume: 0.207
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: JoueurTire
+    clip: {fileID: 8300000, guid: b137c0690695da14e92593c8cb502e8b, type: 3}
+    volume: 0.118
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: ZombieHit
+    clip: {fileID: 8300000, guid: 9614ad56e9dcf6b46b688175b3f9657d, type: 3}
+    volume: 0.384
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: Collectible
+    clip: {fileID: 8300000, guid: 9b87fe5863d3fdf4dba9575689b84b7d, type: 3}
+    volume: 0.521
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: Musique
+    clip: {fileID: 8300000, guid: 13cfa352435ddd34887f0d833cc293cf, type: 3}
+    volume: 0.508
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: GameOver
+    clip: {fileID: 8300000, guid: 32a001ab5357d734591ee28523e4aa82, type: 3}
+    volume: 0.36
+    loop: 0
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
+  - nom: MusiqueVictoire
+    clip: {fileID: 8300000, guid: 76bfd2c02f8816441b5b1216706e3174, type: 3}
+    volume: 0.416
+    loop: 1
+    source: {fileID: 0}
+    mixerGroup: {fileID: 24300002, guid: a131bdb4430516643aca758efafe37ca, type: 2}
